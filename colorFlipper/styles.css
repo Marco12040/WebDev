@@ -1,0 +1,19 @@
+
+.nav-center{
+    background-color: yellow;
+}
+
+.container{
+    background-color: blueviolet;
+    
+}
+.color{
+    background-color: brown;
+
+}
+li {
+    display: inline-block;
+    padding-left:30px;
+    padding-right:30px;
+    
+  }

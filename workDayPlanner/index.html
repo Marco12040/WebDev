@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workday Planner</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div class="Headers">
+    
+    <h2>Daily Hours Worked Calculator</h2>
+    </div>
+    <form class="form">
+        <label for="startTime">Start Time:</label>
+        <select id ="startTime" >
+            <optgroup label="Start Time">
+                <option value="01:00:00">01:00</option>
+                <option value="02:00:00">02:00</option>
+                <option value="03:00:00">03:00</option>              
+                <option value="04:00:00">04:00</option>
+                <option value="05:00:00">05:00</option>
+                <option value="06:00:00" selected>06:00</option>
+                <option value="07:00:00">07:00</option>
+                <option value="08:00:00">08:00</option>
+                <option value="09:00:00">09:00</option>
+                <option value="10:00:00">10:00</option>
+                <option value="11:00:00">11:00</option>
+                <option value="12:00:00">12:00</option>
+            </optgroup>
+          </select>
+         <select id="startStatus">
+             <option value="am" selected>am</option>
+             <option value="pm">pm</option>            
+        </select>  
+        <label for="endTime">End Time:</label>
+        <select id ="endTime" >
+            <optgroup label="End Time">
+              <option value="01:00:00">01:00</option>
+              <option value="02:00:00">02:00</option>
+              <option value="03:00:00">03:00</option>              
+              <option value="04:00:00" selected>04:00</option>
+              <option value="05:00:00">05:00</option>
+              <option value="06:00:00">06:00</option>
+              <option value="07:00:00">07:00</option>
+              <option value="08:00:00">08:00</option>
+              <option value="09:00:00">09:00</option>
+              <option value="10:00:00">10:00</option>
+              <option value="11:00:00">11:00</option>
+              <option value="12:00:00">12:00</option>
+            </optgroup>
+          </select>
+         <select id="endStatus">
+             <option value="am">am</option>
+             <option value="pm" selected>pm</option>            
+        </select> 
+    </div>
+</form>  
+        <div class = "center">
+           <input class="buttons" id="submit" type="submit" value="Submit">
+           <input class="buttons" id= "reset"type="reset">
+        </div>
+    
+</body>
+</html>
